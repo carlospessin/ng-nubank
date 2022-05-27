@@ -2,28 +2,18 @@
 
 <img src="https://github.com/carlospessin/ng-nubank/blob/master/src/assets/ng-nubank.gif?raw=true">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+---
 
-## Development server
+## Instruções
+1. Clone este repositório: https://github.com/carlospessin/ng-nubank  
+2. Certifique-se de ter o [Node](https://nodejs.dev/) instalado  
+3. Execute `npm install` na raiz
+4. Rode a aplicação com `npm serve -o`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+*Dica para visualizar no celular*  
+Pegue o endereço Ipv4 de sua máquina  
+1. abra o prompt de comando  
+2. execute `ipconfig` e pegue o valor de seu Ipv4. *ex: 192.168.0.0*  
+3. Rode a aplicação com `npm serve --host SEUIP`  
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito isso basta acessar no navegador do seu celular seu ip adicionando a porta `:4200` no final. *ex: 192.168.0.0:4200*
