@@ -1,5 +1,7 @@
 # NgNubank
 
+<img src="https://github.com/carlospessin/ng-nubank/blob/master/src/assets/ng-nubank.gif?raw=true">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server
