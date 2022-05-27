@@ -1,0 +1,305 @@
+h1, h2, h3, span, p {
+  font-family: Arial, Heveltica, sans-serif;
+  font-size: 22px;
+  color: rgb(35, 35, 35);
+  margin-top:0;
+}
+
+.roxinho {
+  color: rgb(130,10,209);
+}
+
+.toolbar {
+  height: 110px;
+  background-color: rgb(130,10,209);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px;
+  padding-top: 28px;
+
+  .right-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    > * {
+      margin-left: 26px;
+    }
+
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .person-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: rgba(255,255,255,0.15);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size:  18px;
+    color: #fff;
+  }
+}
+
+.content-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px
+
+
+  h1 {
+    margin: 0;
+    font-size: 22px;
+  }
+}
+
+section {
+  padding: 28px;
+  border-top: 2px solid rgb(241,241,241);
+
+  .card {
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(241,241,241);
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+
+    svg {
+      padding-left: 24px;
+    }
+  
+    span {
+      padding-left: 16px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+  }
+
+  p {
+    color: rgb(140, 140, 140);
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  p.small {
+    font-size: 14px;
+  }
+}
+
+.account {
+  padding: 0;
+  padding-top: 10px;
+
+  .content-title {
+    margin: 20px 28px 0 28px;
+  }
+
+  .balance {
+    margin: 4px 28px 0 28px;
+  }
+
+  .carousel {
+    margin: 28px 0;
+    padding: 0 18px;
+
+    .carousel-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        justify-content: start;
+      }
+    }
+
+    .carousel-item-circle {
+      width: 68px;
+      height: 68px;
+      border-radius: 68px;
+      background-color: rgb(241,241,241);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+
+    .carousel-item.keen-slider__slide {
+      min-width: calc((100% / 4.5) - 10px) !important;
+      max-width: calc((100% / 4.5) - 10px) !important;
+    }
+    
+  }
+
+  .my-cards {
+    margin: 0 28px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 28px;
+    width: calc(100% - 28px);
+
+    .card {
+      height: 88px;
+
+      p {
+        padding: 0 28px;
+        font-size: 14px;
+        font-weight: 200;
+        color: rgb(35,35,35);
+        margin: 0;
+
+        span {
+          color: rgb(130,10,209);
+          padding: 0;
+          font-size: 14px;
+          font-weight: 200;
+        }
+      }
+
+    }
+
+    .card.keen-slider__slide {
+      min-width: calc((100% / 1.5) - 10px) !important;
+      max-width: calc((100% / 1.5) - 10px) !important;
+    }
+  }
+}
+
+.credit-card, .life-insurance {
+  h2{
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-top: 0;
+  }
+  p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-top: 0;
+  }
+
+  .card {
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(241,241,241);
+    display:inline-flex;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 0;
+    padding: 0 20px;
+  
+    span {
+      padding-left: 0;
+      font-size: 16px;
+      color: #000;
+    }
+
+    svg {
+      padding-left: 0;
+    }
+  }
+
+  span {
+    color: green;
+    font-size: 16px;
+  }
+}
+
+.life-insurance {
+  .card {
+    border-radius: 15px;
+    display:flex;
+    margin-top: 18px;
+
+    span {
+      font-size: 14px;
+      padding-left: 16px;
+    }
+  }
+}
+
+.insurances {
+  .card {
+    margin: 24px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+
+    .card-description {
+      display: flex;
+      align-items: center;
+    }
+
+    span {
+      padding-right: 24px;
+    }
+  }
+}
+
+.discover {
+  .discover-card {
+    border-radius: 14px;
+    background-color: #EDEDED;
+
+    .discover-card-description {
+      padding: 15px 20px;
+
+      .discover-btn {
+        background-color: #820ad1;
+        border-radius: 25px;
+        padding: 10px;
+        color: #fff;
+        font-family: Arial, Heveltica, sans-serif;
+        display: inline-flex;
+        margin-top: 50px;
+      }
+    }
+
+    p {
+      color:#000;
+      padding-bottom: 15px;
+    }
+
+    span {
+      font-size: 15px;
+      color:rgb(102, 102, 102);
+    }
+
+    img {
+      object-fit: cover;
+      height: 120px;
+      width: 233px;
+    }
+  }
+}
+
